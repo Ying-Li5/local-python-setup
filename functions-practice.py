@@ -2,11 +2,11 @@
 def hello():
     print("Hello, today is a beautiful day!")
 
-print(hello())
+hello()
 
 # A function named pack() that accepts three arguments, and returns a single list with the three arguments inside as list elements.
 def pack(a,b,c):
-    return["watermelon", "strawberry", "blueberry"]
+    return["a,b,c"]
 
 print(pack("a", "b", "c"))
 print(pack(1, 2, 3))
