@@ -1,7 +1,7 @@
 # arb_args - Takes in any number of arguments and prints them one at a time.
-def arb_args (*arg):
-    for a in args:
-        print(a)
+def arb_args(*args):
+  for a in args:
+    print(a)
 
 # inner_func - Takes in two integers. Two nested functions should perform separate, distinct math operations using the integers. 
 # The result of both nested functions should then be added together and printed.
