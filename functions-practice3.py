@@ -1,9 +1,9 @@
 # name_args - Accepts any number of named arguments and prints them in the pattern key : value one at a time.
-def name_args(*args):
-    for a in args.key():
-        print(f"{a}:{args[a]}")
+def name_kwargs(*kwargs):
+    for a in kwargs.key():
+        print(f"{a}:{kwargs[a]}")
 
-name_args(name="Alax", animal='dog', breed="corgi", age=5)
+name_kwargs(name="Alax", animal='dog', breed="corgi", age=5)
 
 # all_true - Returns True if all the elements in an iterable are true. Hint: there is an existing built-in function that could be very helpful here.
 def all_true(iterable):
